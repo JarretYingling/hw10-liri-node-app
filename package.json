@@ -1,14 +1,11 @@
 {
-  // npm init --yes failed to auto-append dependencies below
-  // worst case - will just manually copy contents of "package-lock.json" to "package.json"
   "name": "hw10-liri-node-app",
   "version": "1.0.0",
   "description": "LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for movies.",
   "main": "index.js",
-  "dependencies": {
-    "liribot": "^1.0.4"
+  "directories": {
+    "lib": "lib"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/JarretYingling/hw10-liri-node-app/issues"
   },
-  "homepage": "https://github.com/JarretYingling/hw10-liri-node-app#readme"
+  "homepage": "https://github.com/JarretYingling/hw10-liri-node-app#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^6.2.0",
+    "moment": "^2.24.0",
+    "node-spotify-api": "^1.0.7"
+  }
 }

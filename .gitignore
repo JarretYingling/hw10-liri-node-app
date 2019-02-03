@@ -1,8 +1,19 @@
 #ignore file - example.txt
 #example.txt
-
-#ignore folder - 00_ignore
-00_ignore/
+.env
+.DS_Store
 
 #ignore all .txt files
 #.txt
+.env
+.DS_Store
+
+#ignore folder - 00_ignore
+00_ignore
+00_ignore/
+jarretyingling
+jarretyingling/
+jarretyingling/node_modules
+jarretyingling/node_modules/
+node_modules
+node_modules/
