@@ -1,0 +1,53 @@
+/* temp wireframe */
+
+html,
+body,
+header,
+nav,
+section,
+article,
+aside,
+footer,
+div,
+table,
+th,
+tr,
+td,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 0px;
+    border-width: 0px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    
+    background: url("../img/traintrack_background.jpg");
+    background-size: 200px;
+    
+}
+
+.btn {
+    
+}
+
+#track {
+    position: absolute;
+    top: 0px;
+    right: -300px;
+}
+
+/*
+footer {
+    position: fixed;
+    bottom: 0px;
+}
+*/
