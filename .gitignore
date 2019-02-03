@@ -1,0 +1,8 @@
+#ignore file - example.txt
+#example.txt
+
+#ignore folder - 00_ignore
+00_ignore/
+
+#ignore all .txt files
+#.txt
